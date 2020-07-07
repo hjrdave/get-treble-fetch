@@ -1,0 +1,34 @@
+@import '../components//variables';
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/_variables';
+@import '~bootstrap/scss/mixins/breakpoints';
+
+.doc-post-content{
+    h1{
+        @include media-breakpoint-down(md) {
+            font-size: $h1-font-size - 1rem;
+        }
+    }
+    h2{
+        margin-top: 2rem;
+        @include media-breakpoint-down(md) {
+            font-size: $h2-font-size - .5rem;
+        }
+    }
+    h3{
+        margin-top: 2rem;
+    }
+    p{
+        margin-top: 1rem;
+        @include media-breakpoint-down(md) {
+            font-size: $font-size-base + .10rem;
+        }
+    }
+    pre{
+        //display:none;
+        overflow: hidden;
+        @include media-breakpoint-down(md) {
+            font-size: $font-size-base - .1rem!important;
+        }
+    }
+}
