@@ -12,10 +12,10 @@ function MainNav() {
     <>
       <Navigation
         navItems={[
-          {
-            path: '/api/introduction',
-            text: 'API'
-          }
+          // {
+          //   path: '/api/introduction',
+          //   text: 'API'
+          // }
         ]}
       />
     </>

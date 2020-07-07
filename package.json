@@ -1,7 +1,7 @@
 {
-  "name": "get-treble-gsm",
+  "name": "get-treble-fetch",
   "private": false,
-  "description": "Offical website for Treble",
+  "description": "Offical docs for Treble Fetch, TrebleGSM fetching extension.",
   "version": "0.1.0",
   "author": "David A. Sanders <dsanders@mediafish.io>",
   "dependencies": {
@@ -64,9 +64,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hjrdave/get-treble-gsm"
+    "url": "https://github.com/hjrdave/get-treble-fetch"
   },
   "bugs": {
-    "url": "https://github.com/hjrdave/get-treble-gsm/issues"
+    "url": "https://github.com/hjrdave/get-treble-fetch/issues"
   }
 }
